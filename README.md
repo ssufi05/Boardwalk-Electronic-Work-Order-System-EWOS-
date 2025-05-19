@@ -39,6 +39,7 @@ The **Boardwalk EWOS** is a desktop application developed to digitize and stream
 - Tkinter (GUI)
 - MySQL (Database)
 - `mysql-connector-python` library
+- `humanize` library
 
 ---
 
@@ -51,6 +52,7 @@ Ensure the following are installed:
 Python 3.13+
 MySQL Server
 pip install mysql-connector-python
+pip install humanize
 ```
 
 ### Setup Steps
@@ -60,8 +62,8 @@ pip install mysql-connector-python
 
    ```
    [client]
-   user = root
-   password = 12345
+   user = your_mysql_username
+   password = your_mysql_password
    host = 127.0.0.1
    database = WORKORDERS
    ```
